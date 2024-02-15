@@ -4,7 +4,9 @@
 
 <br/>
 
-To get started localy follow these steps:
+Everyone can find this app published [here](https://chronovault.streamlit.app/) 🚀  
+
+To get started locally follow the steps below:
 
 
 
