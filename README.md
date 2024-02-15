@@ -64,7 +64,7 @@ To get started localy follow these steps:
 | Sheet Name       | Functionality                                               |
 |------------------|-------------------------------------------------------------|
 |🛠️Configuration| - AWS Login: Authenticate with AWS using your credentials.<br> - Select Bucket and Folder: Choose an AWS S3 bucket and folder to save data.|
-|📥Import Data| - Upload an Excel or CSV file for data insertion.|
+|📥Import Data| - Upload an Excel file for data insertion.|
 |📂Database| - Streamlit Data Editor: Use Streamlit's interactive table to insert, update, and delete data.  |
 |🔄CDC| - Historical Table: View the historical table containing the historical data.  |
 |📊Analysis| - Metrics: Display metrics about the number of inserts, updates, and deletes over time.   |
