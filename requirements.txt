@@ -1,0 +1,8 @@
+s3fs==2023.12.2
+streamlit==1.30.0
+pandas==2.1.4
+pandasql==0.7.3
+boto3==1.29.1
+openpyxl==3.0.10
+plotly==5.9.0
+streamlit-extras==0.4.0

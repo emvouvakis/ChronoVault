@@ -1,0 +1,42 @@
+[data-testid = "stSidebar"]{
+    min-width: 244px;
+    max-width: 244px;
+    border-radius: 0px 10px 10px 0px;
+    border: 2px solid #e35902;
+}
+
+[data-testid = "stSidebarNavItems"]{
+    padding-top: 9rem;
+}
+
+[data-testid="stSidebarNavItems"]::before {
+    content: "ChronoVault";
+    text-align-last: center;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e35902;
+
+}
+
+[data-testid = "stSidebarContent"] li:last-child {
+    border-top: 2px solid #e35902;
+    position: fixed;
+    bottom: 0;
+    flex-grow: 1;
+    width: 240px; 
+  }
+
+[data-testid = "stHeader"]{
+    visibility: hidden;
+}
+
+#title {padding: 0rem 0px 1rem}
+
+iframe {
+    visibility: hidden;
+    height: 1rem;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div {padding-top: 0rem;}
