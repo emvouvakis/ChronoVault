@@ -56,7 +56,7 @@ To get started localy follow these steps:
 <br/>
 
 
-## ChronoVault App
+## ChronoVault App:
 
 
 <br/>
@@ -69,4 +69,22 @@ To get started localy follow these steps:
 |🔄CDC| - Historical Table: View the historical table containing the historical data.  |
 |📊Analysis| - Metrics: Display metrics about the number of inserts, updates, and deletes over time.   |
 |🔍Query Tool| - Execute Queries: Utilize PandasSQL to execute queries on the DataFrame and historical table.  |
+
+
+## Preview:
+
+<br/>
+
+![image](https://github.com/emvouvakis/ChronoVault/blob/main/assets/images/configuration.png?raw=true)
+
+![image](https://github.com/emvouvakis/ChronoVault/blob/main/assets/images/import.png?raw=true)
+
+![image](https://github.com/emvouvakis/ChronoVault/blob/main/assets/images/database.png?raw=true)
+
+![image](https://github.com/emvouvakis/ChronoVault/blob/main/assets/images/cdc.png?raw=true)
+
+![image](https://github.com/emvouvakis/ChronoVault/blob/main/assets/images/analytics.png?raw=true)
+
+![image](https://github.com/emvouvakis/ChronoVault/blob/main/assets/images/query.png?raw=true)
+
 

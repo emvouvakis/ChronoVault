@@ -41,8 +41,7 @@ tab3.markdown(
     '''
     #### Usage:
     ✅ Gain a comprehensive understanding of data modifications.  
-    ✅ Track changes over time to analyze trends and patterns.  
-    ✅ Facilitates decision-making based on data evolution.
+    ✅ Track changes over time to analyze trends and patterns.
     '''
               )
 tab3.image('./assets/images/cdc.png', width=850)
