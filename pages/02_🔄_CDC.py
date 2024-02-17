@@ -22,9 +22,9 @@ def load_view(tool):
 
     def highlight_values(val):
         color_map = {
-            'insert': 'background-color: #00d26a; color: #00381c; ',  # Red
-            'update': 'background-color: #00a6ed; color: #003a53',  # Green
-            'delete': 'background-color: #f70a8d; color: #5d0335'  # Blue
+            'insert': 'background-color: #00d26a; color: #00381c; ', 
+            'update': 'background-color: #00a6ed; color: #003a53',
+            'delete': 'background-color: #f70a8d; color: #5d0335'
         }
         return color_map.get(val)
 

@@ -63,13 +63,13 @@ def load_view(tool):
 
 
         m1 = metrics[metrics['kpi'] == 'Total Rows Historical']['count'] if not metrics[metrics['kpi'] == 'Total Rows Historical'].empty else 0
-        col1.metric('Total Historical Rows:', m1.values[0])
+        col1.metric('Total Historical Rows:', m1)
         m2 = metrics[metrics['kpi'] == 'Total Valid Rows']['count'] if not metrics[metrics['kpi'] == 'Total Valid Rows'].empty else 0
-        col1.metric('Total Valid Rows:', m2.values[0])
+        col1.metric('Total Valid Rows:', m2)
         m2 = metrics[metrics['kpi'] == 'insert']['count'] if not metrics[metrics['kpi'] == 'insert'].empty else 0
-        col2.metric('Insert Count:', m2.values[0])
+        col2.metric('Insert Count:', m2)
         m3 = metrics[metrics['kpi'] == 'update']['count'] if not metrics[metrics['kpi'] == 'update'].empty else 0
-        col3.metric('Update Count:', m3.values[0])
+        col3.metric('Update Count:', m3)
         m4 = metrics[metrics['kpi'] == 'delete']['count'] if not metrics[metrics['kpi'] == 'delete'].empty else 0
         col4.metric('Delete Count:', m4)
         

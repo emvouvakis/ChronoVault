@@ -43,7 +43,6 @@ def load_view(tool):
                 try:
 
                     inserts = pd.DataFrame(state['added_rows'])
-                    # inserts = inserts.convert_dtypes(dtype_backend= 'pyarrow')
 
                     tool.insert_new_data(inserts)
                 except:
@@ -73,7 +72,7 @@ def load_view(tool):
                     tool.update_records(foo)
 
         if len(state['deleted_rows'])>=1:
-            # st.write(df.iloc[state['deleted_rows']]['id'].tolist())
+
             status = True
             tool.delete_record(df.iloc[state['deleted_rows']]['id'].tolist())
 

@@ -11,8 +11,6 @@ def load_view(tool):
 
     historical = tool.historical.reset_index()
     df = tool.table.reset_index()
-    historical = historical.rename_axis('row')
-    df = df.rename_axis('row')
 
 
     # Create a form for entering an SQL query
@@ -28,7 +26,7 @@ def load_view(tool):
             try:
                 if query:
 
-                    result_df = sqldf(query).set_index('row')
+                    result_df = sqldf(query)
 
                     def convert_df(df):
                         return df.to_csv().encode('utf-8')
