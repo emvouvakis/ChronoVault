@@ -4,7 +4,7 @@
 
 <br/>
 
-Everyone can find this app published [here](https://chronovault.streamlit.app/) 🚀  
+Everyone can find this app published 👉 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chronovault.streamlit.app) 👈
 
 To get started locally follow the steps below:
 
