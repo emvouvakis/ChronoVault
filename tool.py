@@ -12,7 +12,8 @@ class S3CDC:
         Args:
         - new_data: Optional parameter to provide initial data.
         """
-        self.table=None
+        self.table = None
+        self.historical = None
         if aws_access_key_id and aws_secret_access_key and aws_bucket and aws_folder_in_bucket:
 
             # AWS credentials and S3 bucket information
